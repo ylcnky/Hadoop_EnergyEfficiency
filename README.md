@@ -1,10 +1,6 @@
-BigData for Energy Efficiency
-=============================
-<<<<<<< HEAD
+#BigData for Energy Efficiency
+
 ## Project Explanation
-=======
-# Project Explanation
->>>>>>> 4695e4c8c5352b6ed70de5e8142eafcd65c99a63
 
 This project is to provide a proof of concept for using Big Data along with advanced analytics techniques to solve issues for improving energy efficiency. In this project we used some sample data sets provided by "Technical Research Centre of Finland - VTT". These data sets were collected using specialized metering devices installed by VTT in a group of buildings. For sake of of anonymity the names and locations of the buildings are replaced by hypothetical labels. Following is a list of energy efficiency use cases that were considered as part of this proof of concept. The implementation procedures of highlighted use cases in list below are explained.
 
