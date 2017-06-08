@@ -98,4 +98,4 @@ The output file should have following columns
 
 Followings are the snapshots of the generated visualizations from Tableau and the Web Development platform
 
-![alt tag](https://github.com/ylcnky/Hadoop_EnergyEfficiency/img/Tableau_1.png)
+![alt tag](https://github.com/ylcnky/Hadoop_EnergyEfficiency/blob/master/img/Tableau1.png)
