@@ -28,20 +28,20 @@ The implementation is performed both locally installed Hadoop Cluster and also C
 ###Cloudera CDH5.10
 For this proof of concept or any demo use Cloudera CDH5.10 quick virtual machine can be used that is available via [Cloudera official website for Quick VM ](https://www.cloudera.com/downloads/quickstart_vms/5-10.html).
 
-For using the concept presented in this proof concept in a production environment, We recommend that you install Cloudera CDH 4.0 in pseudo distributed single node or multi node modes. We found this very helpful step by step instruction of installing CDH4 published by AVINASH KUMAR SINGH [Step by step guide for installing and configuring CDH4](https://docs.google.com/file/d/0Bx6N95pJhrROblJiaEJ0dHpwVmc/edit). Detailed cloudera documentation are official via their official documentation pages,[Ways to install CDH4](http://www.cloudera.com/content/cloudera-content/cloudera-docs/CDH4/4.2.0/CDH4-Installation-Guide/cdh4ig_topic_4_2.html).
+For using the concept presented in this proof concept in a production environment, It is recommended that you install Cloudera CDH 5.10 in pseudo distributed single node or multi node modes. Detailed Cloudera documentation are official via their official documentation pages,[Ways to install CDH4](http://www.cloudera.com/content/cloudera-content/cloudera-docs/CDH4/4.2.0/CDH4-Installation-Guide/cdh4ig_topic_4_2.html).
 
 
-###  Using Apache Pig and R scripts to classify buildings on basis of energy effeciency
+###  Using Apache Pig and R scripts to classify buildings on basis of energy efficiency
 
-Following steps can be used to analyze the data for given use cases. These steps can be used with CDH4 in any configuration. We have tested it using Cloudera CDH4 quick VM.
+Following steps can be used to analyze the data for given use cases. These steps can be used with CDH4 in any configuration. We have tested it using Cloudera CDH5.10 VM.
 
-1. Download material in this reposiroty using following command. (Git installation is a pre-requisite)
+1. Download material in this repository using following command. (Git installation is a pre-requisite)
 
-`git clone https://github.com/hazznain/BigData_for_Energy_Efficiency`
+`git clone https://github.com/ylcnky/Hadoop_EnergyEfficiency.git`
 
 2. Extract and copy the data to HDFS
 
-`cd BigData_for_Energy_Efficiency/`
+`cd Hadoop_EnergyEfficiency/`
 
 `unzip data.zip`
 
