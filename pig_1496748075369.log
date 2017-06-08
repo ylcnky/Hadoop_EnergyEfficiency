@@ -1,0 +1,86 @@
+Pig Stack Trace
+---------------
+ERROR 0: java.lang.IllegalStateException: Job in state DEFINE instead of RUNNING
+
+org.apache.pig.backend.executionengine.ExecException: ERROR 0: java.lang.IllegalStateException: Job in state DEFINE instead of RUNNING
+	at org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher.getStats(MapReduceLauncher.java:822)
+	at org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher.launchPig(MapReduceLauncher.java:452)
+	at org.apache.pig.backend.hadoop.executionengine.HExecutionEngine.launchPig(HExecutionEngine.java:308)
+	at org.apache.pig.PigServer.launchPlan(PigServer.java:1474)
+	at org.apache.pig.PigServer.executeCompiledLogicalPlan(PigServer.java:1459)
+	at org.apache.pig.PigServer.execute(PigServer.java:1448)
+	at org.apache.pig.PigServer.executeBatch(PigServer.java:488)
+	at org.apache.pig.PigServer.executeBatch(PigServer.java:471)
+	at org.apache.pig.tools.grunt.GruntParser.executeBatch(GruntParser.java:172)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:235)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:206)
+	at org.apache.pig.tools.grunt.Grunt.exec(Grunt.java:81)
+	at org.apache.pig.Main.run(Main.java:501)
+	at org.apache.pig.Main.main(Main.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:234)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:148)
+Caused by: java.lang.IllegalStateException: Job in state DEFINE instead of RUNNING
+	at org.apache.hadoop.mapreduce.Job.ensureState(Job.java:292)
+	at org.apache.hadoop.mapreduce.Job.getTaskReports(Job.java:534)
+	at org.apache.pig.backend.hadoop.executionengine.shims.HadoopShims.getTaskReports(HadoopShims.java:235)
+	at org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher.getStats(MapReduceLauncher.java:801)
+	... 19 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2244: Job failed, hadoop does not return any error message
+
+org.apache.pig.backend.executionengine.ExecException: ERROR 2244: Job failed, hadoop does not return any error message
+	at org.apache.pig.tools.grunt.GruntParser.executeBatch(GruntParser.java:180)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:235)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:206)
+	at org.apache.pig.tools.grunt.Grunt.exec(Grunt.java:81)
+	at org.apache.pig.Main.run(Main.java:501)
+	at org.apache.pig.Main.main(Main.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:234)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:148)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2244: Job failed, hadoop does not return any error message
+
+org.apache.pig.backend.executionengine.ExecException: ERROR 2244: Job failed, hadoop does not return any error message
+	at org.apache.pig.tools.grunt.GruntParser.executeBatch(GruntParser.java:180)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:235)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:206)
+	at org.apache.pig.tools.grunt.Grunt.exec(Grunt.java:81)
+	at org.apache.pig.Main.run(Main.java:501)
+	at org.apache.pig.Main.main(Main.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:234)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:148)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2244: Job failed, hadoop does not return any error message
+
+org.apache.pig.backend.executionengine.ExecException: ERROR 2244: Job failed, hadoop does not return any error message
+	at org.apache.pig.tools.grunt.GruntParser.executeBatch(GruntParser.java:180)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:235)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:206)
+	at org.apache.pig.tools.grunt.Grunt.exec(Grunt.java:81)
+	at org.apache.pig.Main.run(Main.java:501)
+	at org.apache.pig.Main.main(Main.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:234)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:148)
+================================================================================
