@@ -1,32 +1,32 @@
 BigData for Energy Efficiency
 =============================
-#### Project Explanation
+## Project Explanation
 
-This project is an endeavour to provide a proof of concept for using Big Data along with advanced analytics techniques to solve issues for improving energy efficiency. In this project we used some sample data sets provided by "Technical Research Centre of Finland - VTT". These data sets were collected using specialized metering devices installed by VTT in a group of buildings. For sake of of anonymity the names and locations of the buildings are replaced by hypothetical labels. Following is a list of energy effeciency use cases that were considered as part of this proof of concept. The implementation procedures of higlighted use cases in list below are explained. The details of other use cases will be coming very soon on this page.
+This project is to provide a proof of concept for using Big Data along with advanced analytics techniques to solve issues for improving energy efficiency. In this project we used some sample data sets provided by "Technical Research Centre of Finland - VTT". These data sets were collected using specialized metering devices installed by VTT in a group of buildings. For sake of of anonymity the names and locations of the buildings are replaced by hypothetical labels. Following is a list of energy efficiency use cases that were considered as part of this proof of concept. The implementation procedures of highlighted use cases in list below are explained.
 
 1. Calculating the base load of the building to identify non user consumption of buildings.
 2. **_Classifying the buildings on the basis of the energy efficiency and analyse the seasonal shifts in this classification._**
 3. Predicting daily energy consumption of various household devices on the basis of previous consumption pattern.
-4. Collecting Twitter data for energy related topics using keyword filtering.
+4. Collecting Twitter data for energy related topics using keyword filtering (not implemented yet).
 </font>
 Following is the list of tools used for Big Data, advanced analytics and results visualization.
 
-* Apache Hadoop
-* Apache Pig
-* Apache Flume
-* Apache Hive
-* Apache Oozie
-* Cloudera Impala
-* MongoDB (Optional)
-* R Programming for Statistical Computing
-* Weka
-* Tableau Public
+* Apache Hadoop (big data)
+* Apache Pig (big data)
+* Apache Flume (big data)
+* Apache Hive (big data)
+* Apache Oozie (big data)
+* Cloudera Impala (big data Cloudera VM)
+* SQL on Hadoop and Neo4j Graph Database (Optional)
+* R Programming for Statistical Computing (Python is option)
+* Tableau Public (visualization)
+* Web interface for run-time visualization (with fake data to imitate the scenario)
 
-We used Cloudera CDH4 for Apache Hadoop, Pig, Hive, Flume, Ozzie and Cloudera Imapala.
+The implementation is performed both locally installed Hadoop Cluster and also Cloudera CDH5.10 VM for Apache Hadoop, Pig, Hive, Flume, Ozzie and Cloudera Imapala.
 
 ##Implementation
-###Cloudera CDH4
-For this proof of concept or any demo use Cloudera CDH4 quick virtual machine can be used that is available via [Cloudera official website for Quick VM ](http://www.cloudera.com/content/support/en/downloads/quickstart_vms/cdh-4-7-x.html).
+###Cloudera CDH5.10
+For this proof of concept or any demo use Cloudera CDH5.10 quick virtual machine can be used that is available via [Cloudera official website for Quick VM ](https://www.cloudera.com/downloads/quickstart_vms/5-10.html).
 
 For using the concept presented in this proof concept in a production environment, We recommend that you install Cloudera CDH 4.0 in pseudo distributed single node or multi node modes. We found this very helpful step by step instruction of installing CDH4 published by AVINASH KUMAR SINGH [Step by step guide for installing and configuring CDH4](https://docs.google.com/file/d/0Bx6N95pJhrROblJiaEJ0dHpwVmc/edit). Detailed cloudera documentation are official via their official documentation pages,[Ways to install CDH4](http://www.cloudera.com/content/cloudera-content/cloudera-docs/CDH4/4.2.0/CDH4-Installation-Guide/cdh4ig_topic_4_2.html).
 
