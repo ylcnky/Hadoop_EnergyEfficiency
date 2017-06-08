@@ -24,14 +24,14 @@ Following is the list of tools used for Big Data, advanced analytics and results
 
 The implementation is performed both locally installed Hadoop Cluster and also Cloudera CDH5.10 VM for Apache Hadoop, Pig, Hive, Flume, Ozzie and Cloudera Imapala.
 
-##Implementation
-###Cloudera CDH5.10
+## Implementation
+### Cloudera CDH5.10
 For this proof of concept or any demo use Cloudera CDH5.10 quick virtual machine can be used that is available via [Cloudera official website for Quick VM ](https://www.cloudera.com/downloads/quickstart_vms/5-10.html).
 
-For using the concept presented in this proof concept in a production environment, It is recommended that you install Cloudera CDH 5.10 in pseudo distributed single node or multi node modes. Detailed Cloudera documentation are official via their official documentation pages,[Ways to install CDH4](http://www.cloudera.com/content/cloudera-content/cloudera-docs/CDH4/4.2.0/CDH4-Installation-Guide/cdh4ig_topic_4_2.html).
+For using the concept presented in this proof concept in a production environment, It is recommended that you install Cloudera CDH 5.10 in pseudo distributed single node or multi node modes. Detailed Cloudera documentation are official via their official documentation pages,[Ways to install CDH5.10](http://www.cloudera.com/content/cloudera-content/cloudera-docs/CDH4/4.2.0/CDH4-Installation-Guide/cdh4ig_topic_4_2.html).
 
 
-###  Using Apache Pig and R scripts to classify buildings on basis of energy efficiency
+### Using Apache Pig and R scripts to classify buildings on basis of energy efficiency
 
 Following steps can be used to analyze the data for given use cases. These steps can be used with CDH4 in any configuration. We have tested it using Cloudera CDH5.10 VM.
 
