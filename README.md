@@ -53,17 +53,17 @@ To view if the file is copied correctly, use following command
 
 3. Using the Apache Pig script to pre-process data
 
-`hadoop fs -ls`
+  `hadoop fs -ls`
 
-`pig -f energy_consumption_matrix.pig`
+  `pig -f energy_consumption_matrix.pig`
 
-`hadoop fs -copyToLocal energy_consumption_matrix ` .
+  `hadoop fs -copyToLocal energy_consumption_matrix ` .
 
-`cd energy_consumption_matrix`
+  `cd energy_consumption_matrix`
 
-`mv part-r-00000 ../energy_consumption_matrix.csv`
+  `mv part-r-00000 ../energy_consumption_matrix.csv`
 
-File "energy_consumption_matrix.csv" can then be used as input file for R script "K-means_clustering_pig_to_R.R" for applying K-means clustering. This script needs another input file "hld_addresses_area.csv" with Real estate data of the building to calculate energy effeciency i.e. by dividing each hourly consumption value per building per month by ground floor area.
+  File "energy_consumption_matrix.csv" can then be used as input file for R script "K-means_clustering_pig_to_R.R" for applying K-means clustering. This script needs another input file "hld_addresses_area.csv" with Real estate data of the building to calculate energy effeciency i.e. by dividing each hourly consumption value per building per month by ground floor area.
 
 4. Now you can use R within centos of Cloudera virtual machine however in our case we use Rstudio in Windows7 environment. It is a user preference. We preffered Windows enviroment because of the next step to use Tableau to visualize the data. In any case open R or Rstudio and set current working directory to the git folder where K-means_clustering_pig_to_R.R script is available and type following command.
 
