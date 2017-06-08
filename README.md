@@ -94,5 +94,8 @@ The output file should have following columns
 5. Drag and drop elec_wh_per_m2 to Columns, while heat_Wh_per_m2 to Rows in the graph area.
 6. Size and color on basis of assigned K-means cluster values.
 7. Put filters of your choice like in our case we used months and buildings as filters to see the beahviour of building in each month.
-8. Build a dashboards and thats it.
-9. In addition a web interface is also developed to imitate the run-time data visualization scenario. This interface has also been embedded to the Tableau later.
+8. In addition a web interface is also developed to imitate the run-time data visualization scenario. This interface has also been embedded to the Tableau later.
+
+Followings are the snapshots of the generated visualizations from Tableau and the Web Development platform
+
+![alt tag](https://github.com/ylcnky/Hadoop_EnergyEfficiency/img/Tableau_1.png)
